@@ -1,0 +1,35 @@
+== Info: Could not resolve host: curl
+== Info: Closing connection 0
+== Info:   Trying 3.232.168.170...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (3.232.168.170) port 80 (#1)
+=> Send header, 78 bytes (0x4e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: Mozilla/5.0
+003f: Accept: */*
+004c: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 14 Feb 2020 17:35:32 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 256
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 256 bytes (0x100)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Host"
+0040: : "httpbin.org", .    "User-Agent": "Mozilla/5.0", .    "X-Amzn-
+0080: Trace-Id": "Root=1-5e46da64-4c25bd085b5cc090299febc8".  }, .  "o
+00c0: rigin": "109.248.220.125", .  "url": "http://httpbin.org/get".}.
+== Info: Connection #1 to host httpbin.org left intact
